@@ -41,11 +41,11 @@ cd react-theme-switcher
 
 [📄 App.jsx](https://github.com/viditasingh/Theme-Switcher-Card/blob/main/src/App.jsx) - Main application component with theme provider setup
 
-## ℹ️ **How the Theme Switching Works**
-> The application uses React's Context API to manage theme state across components. The theme can be toggled between light and dark modes using the toggle button, which updates the HTML document's class attribute to apply the appropriate styling.
+## How the Theme Switching Works
+The application uses React's Context API to manage theme state across components. The theme can be toggled between light and dark modes using the toggle button, which updates the HTML document's class attribute to apply the appropriate styling.
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
-This project is for educational purposes only.
+This project is for educational purposes only
