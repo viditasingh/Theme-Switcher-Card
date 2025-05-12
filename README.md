@@ -16,6 +16,11 @@ A modern React application that demonstrates theme switching functionality using
 - Vite 6.3
 - Context API for state management
 
+## Screenshots
+![light theme](https://i.ibb.co/whRtkTZG/image.png)
+
+![dark theme](https://i.ibb.co/k2hX9kr1/Screenshot-2025-05-13-014215.png)
+
 ## Installation
 
 1. Clone the repository:
