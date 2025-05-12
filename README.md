@@ -1,12 +1,51 @@
-# React + Vite
+# React Theme Switcher
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React application that demonstrates theme switching functionality using React Context API and Tailwind CSS for styling.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Light and dark theme toggle
+- Context API for state management across components
+- Responsive design with Tailwind CSS
+- Profile card demo with dynamic styling based on theme
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 19
+- Tailwind CSS 4.1
+- Vite 6.3
+- Context API for state management
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/react-theme-switcher.git
+cd react-theme-switcher
+```
+
+2. Install dependencies:
+` npm install `
+
+3. Start the development server:
+`npm run dev`
+
+
+## Project Structure
+
+[📁 components](https://github.com/viditasingh/Theme-Switcher-Card/tree/main/src/components) - Contains UI components like Card and ThemeButton
+
+[📁 contexts](https://github.com/viditasingh/Theme-Switcher-Card/tree/main/src/contexts) - Contains theme context for state management
+
+[📁 assets](https://github.com/viditasingh/Theme-Switcher-Card/tree/main/src/assets) - Static assets like images
+
+[📄 App.jsx](https://github.com/viditasingh/Theme-Switcher-Card/blob/main/src/App.jsx) - Main application component with theme provider setup
+
+## ℹ️ **How the Theme Switching Works**
+> The application uses React's Context API to manage theme state across components. The theme can be toggled between light and dark modes using the toggle button, which updates the HTML document's class attribute to apply the appropriate styling.
+
+## Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+This project is for educational purposes only.
