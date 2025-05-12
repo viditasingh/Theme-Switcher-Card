@@ -21,14 +21,20 @@ A modern React application that demonstrates theme switching functionality using
 1. Clone the repository:
 ```bash
 git clone https://github.com/your-username/react-theme-switcher.git
+```
+```bash
 cd react-theme-switcher
 ```
 
 2. Install dependencies:
-` npm install `
+```bash
+npm install 
+```
 
 3. Start the development server:
-`npm run dev`
+```bash
+npm run dev 
+```
 
 
 ## Project Structure
